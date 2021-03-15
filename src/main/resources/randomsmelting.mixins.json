@@ -1,12 +1,13 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.randomsmelting.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "randomsmelting.refmap.json",
   "mixins": [
+    "RecipeManagerMixin"
   ],
   "client":[
-    "ExampleMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1
