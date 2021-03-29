@@ -4,10 +4,10 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "randomsmelting.refmap.json",
   "mixins": [
+    "AbstractFurnaceMixin",
     "RecipeManagerMixin"
   ],
-  "client":[
-
+  "client": [
   ],
   "injectors": {
     "defaultRequire": 1

@@ -14,6 +14,4 @@ public class RandomSmelting
     public RandomSmelting() {
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
-    }
 }
